@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Favicons/favicon_package_v0.16/mstile-150x150.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/Favicons/favicon_package_v0.16/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/Favicons/favicon_package_v0.16/favicon-16x16.png">
+    <link rel="manifest" href="/Favicons/favicon_package_v0.16/site.webmanifest">
+    <link rel="mask-icon" href="/Favicons/favicon_package_v0.16/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <script src ="script.js" defer></script>
+</head>
+<body>
+    <img src="./images/logo.png" class="logo">
+<!-- Header Section -->
+   <header>
+    <input type="checkbox" id="menu-toggle">
+    <label for="menu-toggle" class="menu-icon">&#9776; Menu</label>
+    <nav>
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./Aboutus.html Us">About Us</a></li>
+            <li><a href="./services.html">Services</a></li>
+            <li><a href="./Consultation.html">Consultation</a></li>
+            <li><a href="./Doctors.html">Doctors</a></li>
+            <li><a href="./Pharmacy.html">Pharmacy</a></li>
+            <li><a href="./Contactus.html">Contact Us</a></li>
+        </ul>
+     </nav>
+    </header>
+    <div class="search-bar-container">
+        <form action="/search" method="GET">
+            <input type="text" class="search-bar" placeholder="Search..." name="search">
+        </form>
+    </div>
+    <main>
+        
+        <!-- Analgesics -->
+        <section id="analgesics">
+            <h2>Analgesics</h2>
+            <div class="item">
+                <label for="oxycodone">Oxycodone</label>
+                <input type="number" min="0"  class="quantity" id="oxycodone">
+                <button class="add-to-cart" data-name="Oxycodone" data-price="5">Add to Cart</button>
+            </div>
+            <div class="item">
+                <label for="hydrocodone">Hydrocodone</label>
+                <input type="number" min="0"  class="quantity" id="hydrocodone">
+                <button class="add-to-cart" data-name="Hydrocodone" data-price="7">Add to Cart</button>
+            </div>
+            <div class="item">
+                <label for="tramadol">Tramadol</label>
+                <input type="number" min="0"  class="quantity" id="tramadol">
+                <button class="add-to-cart" data-name="Tramadol" data-price="8">Add to Cart</button>
+            </div>
+            <div class="item">
+                <label for="methadone">Methadone</label>
+                <input type="number" min="0"  class="quantity" id="methadone">
+                <button class="add-to-cart" data-name="Methadone" data-price="12">Add to Cart</button>
+            </div>
+            <div class="item">
+                <label for="ketoprofen">Ketoprofen</label>
+                <input type="number" min="0"  class="quantity" id="ketoprofen">
+                <button class="add-to-cart" data-name="Ketoprofen" data-price="10">Add to Cart</button>
+            </div>
+            <div class="item">
+                <label for="diclofenac">Diclofenac</label>
+                <input type="number" min="0"  class="quantity" id="diclofenac">
+                <button class="add-to-cart" data-name="Diclofenac" data-price="9">Add to Cart</button>
+            </div>
+        </section>
+
+        <!-- Antibiotics -->
+        <section id="antibiotics">
+            <h2>Antibiotics</h2>
+            <div class="item">
+                <label for="ampicillin">Ampicillin</label>
+                <input type="number" min="0"  class="quantity" id="ampicillin">
+                <button class="add-to-cart" data-name="Ampicillin" data-price="10">Add to Cart</button>
+            </div>
+            <div class="item">
+                <label for="clarithromycin">Clarithromycin</label>
+                <input type="number" min="0"  class="quantity" id="penicillin">
+                <button class="add-to-cart" data-name="Penicillin" data-price="12">Add to Cart</button>
+            </div>
+            <div class="item">
+                <label for="tetracycline">Tetracycline</label>
+                <input type="number" min="0"  class="quantity" id="tetracycline">
+                <button class="add-to-cart" data-name="Tetracycline" data-price="15">Add to Cart</button>
+            </div>
+            <div class="item">
+                <label for="doxycycline">Doxycycline</label>
+                <input type="number" min="0"  class="quantity" id="doxycycline">
+                <button class="add-to-cart" data-name="Doxycycline" data-price="18">Add to Cart</button>
+            </div>
+            <div class="item">
+                <label for="amikacin">Amikacin</label>
+                <input type="number" min="0"  class="quantity" id="amikacin">
+                <button class="add-to-cart" data-name="Amikacin" data-price="20">Add to Cart</button>
+            </div>
+            <div class="item">
+                <label for="Moxifloxacin">Moxifloxacin</label>
+                <input type="number" min="0"  class="quantity" id="Moxifloxacin">
+                <button class="add-to-cart" data-name="Moxifloxacin" data-price="22">Add to Cart</button>
+            </div>
+        </section>
+
+        <!-- Antidepressants -->
+        <section id="antidepressants">
+            <h2>Antidepressants</h2>
+            <div class="item">
+                <label for="vilazodone">Vilazodone</label>
+                <input type="number" min="0"  class="quantity" id="vilazodone">
+                <button class="add-to-cart" data-name="Vilazodone" data-price="15">Add to Cart</button>
+            </div>
+            <div class="item">
+                <label for="nefazodone">Nefazodone</label>
+                <input type="number" min="0"  class="quantity" id="nefazodone">
+                <button class="add-to-cart" data-name="Nefazodone" data-price="18">Add to Cart</button>
+            </div>
+            <div class="item">
+                <label for="trazodone">Trazodone</label>
+                <input type="number" min="0"  class="quantity" id="trazodone">
+                <button class="add-to-cart" data-name="Trazodone" data-price="17">Add to Cart</button>
+            </div>
+            <div class="item">
+                <label for="ketamine">Ketamine</label>
+                <input type="number" min="0"  class="quantity" id="Ketamine">
+                <button class="add-to-cart" data-name="Amitriptyline" data-price="20">Add to Cart</button>
+            </div>
+            <div class="item">
+                <label for="isocarboxazid">Isocarboxazid</label>
+                <input type="number" min="0"  class="quantity" id="isocarboxazid">
+                <button class="add-to-cart" data-name="Isocarboxazid" data-price="16">Add to Cart</button>
+            </div>
+            <div class="item">
+                <label for="escitalopram">Escitalopram</label>
+                <input type="number" min="0"  class="quantity" id="escitalopram">
+                <button class="add-to-cart" data-name="Escitalopram" data-price="19">Add to Cart</button>
+            </div>
+        </section>
+
+        <!-- Antihistamines -->
+        <section id="antihistamines">
+            <h2>Antihistamines</h2>
+            <div class="item">
+                <label for="desloratadine">Desloratadine</label>
+                <input type="number" min="0"  class="quantity" id="desloratadine">
+                <button class="add-to-cart" data-name="Desloratadine" data-price="10">Add to Cart</button>
+            </div>
+            <div class="item">
+                <label for="levocetirizine">Levocetirizine</label>
+                <input type="number" min="0"  class="quantity" id="levocetirizine">
+                <button class="add-to-cart" data-name="Levocetirizine" data-price="12">Add to Cart</button>
+            </div>
+            <div class="item">
+                <label for="famotidine">Famotidine</label>
+                <input type="number" min="0"  class="quantity" id="famotidine">
+                <button class="add-to-cart" data-name="Famotidine" data-price="15">Add to Cart</button>
+            </div>
+            <div class="item">
+                <label for="nizatidine">Nizatidine</label>
+                <input type="number" min="0"  class="quantity" id="nizatidine">
+                <button class="add-to-cart" data-name="Nizatidine" data-price="18">Add to Cart</button>
+            </div>
+        </section>
+
+        <!-- Antihypertensives -->
+        <section id="antihypertensives">
+            <h2>Antihypertensives</h2>
+            <div class="item">
+                <label for="amlodipine">Amlodipine</label>
+                <input type="number" min="0"  class="quantity" id="amlodipine">
+                <button class="add-to-cart" data-name="Amlodipine" data-price="12">Add to Cart</button>
+            </div>
+            <div class="item">
+                <label for="lisinopril">Lisinopril</label>
+                <input type="number" min="0"  class="quantity" id="lisinopril">
+                <button class="add-to-cart" data-name="Lisinopril" data-price="15">Add to Cart</button>
+            </div>
+            <div class="item">
+                <label for="losartan">Losartan</label>
+                <input type="number" min="0"  class="quantity" id="losartan">
+                <button class="add-to-cart" data-name="Losartan" data-price="18">Add to Cart</button>
+            </div>
+            <div class="item">
+                <label for="metoprolol">Metoprolol</label>
+                <input type="number" min="0"  class="quantity" id="metoprolol">
+                <button class="add-to-cart" data-name="Metoprolol" data-price="20">Add to Cart</button>
+            </div>
+            <div class="item">
+                <label for="atenolol">Atenolol</label>
+                <input type="number" min="0"  class="quantity" id="atenolol">
+                <button class="add-to-cart" data-name="Atenolol" data-price="10">Add to Cart</button>
+            </div>
+            <div class="item">
+                <label for="ramipril">Ramipril</label>
+                <input type="number" min="0"  class="quantity" id="ramipril">
+                <button class="add-to-cart" data-name="Ramipril" data-price="14">Add to Cart</button>
+            </div>
+        </section>
+
+        <!-- cart table code -->
+        
+        <section id="cart">
+            <h2>Your Cart</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Item</th> 
+                        <th>Quantity</th> 
+                        <th>Price</th> 
+                        <th>Total</th> 
+                    </tr>
+                </thead>
+                <tbody id="cart-items">
+                    
+                </tbody>
+            </table>
+            <p id="total-price">Total Price: $0</p> 
+            <button id="save-favourites">Save as Favourite</button> 
+            <button id="apply-favourites">Apply Favourite</button> 
+            <button id="buy-now">Buy Now</button> 
+        </section>
+    </main>
+
+  <footer>
+    <div class="footer-container">
+      <div class="footer-section">
+        <h3>About Us</h3>
+        <p>We   provide   compassionate   care,   advanced   technology,   and   expertise  for   your   health   and   well-being.</p>
+      </div>
+      <div class="contact-info">
+        <h3>Contact Us</h3>
+        <p>Uion place , colombo 07</p>
+        <p>Email: Zeninfo@gmail.com</p>
+        <p>Phone: 011 23445543</p>
+      </div>
+      <div class="footer-section">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="./services.html">Our Services</a></li>
+          <li><a href="./Consultation.html">Make an Appointment</a></li>
+          <li><a href="./services.html">Careers</a></li>
+          <li><a href="./Contactus.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Follow Us</h3>
+        <ul class="social-icons">
+          <li><i class="facebook"><img src="./images/facebook.png" alt="Facebook" id="fb"></i></a></li>
+          <li><i class="twitter"><img src="./images/instagram.png" alt="Instagram" id="insta"></i></a></li>
+          <li><i class="instagram"><img src="./images/twit.png" alt="Twitter" id="twit"></i></a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2024 Hospital Name. All Rights Reserved.</p>
+    </div>
+</footer>
+
+
+</body>
+</html>

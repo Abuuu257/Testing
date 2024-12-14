@@ -1,0 +1,34 @@
+{
+    "name": "Zenith",
+    "short_name": "Zen",
+    "description": "A hospital providing exceptional medical services and patient care.",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#ADD8E6",
+    "theme_color": "#ffffff",
+    "icons": [
+      {
+        "src": "/Favicons/favicon_package_v0.16/favicon-32x32.png",
+        "sizes": "32x32",
+        "type": "Favicons/favicon_package_v0.16/png"
+      },
+      {
+        "src": "/Favicons/favicon_package_v0.16/favicon-16x16.png",
+        "sizes": "16x16",
+        "type": "Favicons/favicon_package_v0.16/png"
+      },
+      {
+        "src": "/Favicons/favicon_package_v0.16/apple-touch-icon.png",
+        "sizes": "180x180",
+        "type": "Favicons/favicon_package_v0.16/png"
+      },
+      {
+        "src": "/Favicons/favicon_package_v0.16/safari-pinned-tab.svg",
+        "sizes": "any",
+        "type": "Favicons/favicon_package_v0.16/svg+xml"
+      }
+    ],
+    "orientation": "portrait-primary",
+    "scope": "/",
+    "prefer_related_applications": false
+  }
